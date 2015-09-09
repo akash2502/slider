@@ -1,0 +1,3 @@
+Hi 
+This is a responsive content slider optimised for mobile phone too.
+In desktop it provides us the content access via slides and in for mobile the slider changes into drop down menu by which we can access the content related to it.
