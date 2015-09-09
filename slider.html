@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Slider</title>
+        <link type="text/css" rel="stylesheet" href="main.css"/>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+     
+        <script src="js/slider.js"></script>
+         
+    </head>
+    <body>
+        <div style=" width: 180px; height: 23px;background: url(images/logo.png)"></div>
+        <!-- main container-->
+        <div class="container">
+            <form action="#">
+                    <p>
+                        <select name="dropdown" size="1" class="drop-down" id="dropdown1">
+                        
+                        <option value="1">Home</option>
+                        <option value="2">Offers</option>
+                        <option value="3">Contact us</option>
+                        
+        </select>
+    </p>
+</form>
+            <div class="progress-container">
+                 
+                
+                    <a href="#" class="item-number" onclick="selectStep(1); return false;">Home</a>
+                     <a href="#" class="item-number" onclick="selectStep(2); return false;">Offers</a>
+                    <a href="#" class="item-number" onclick="selectStep(3); return false;">Contact us</a>
+                
+                <div class="progress-selected"></div>
+            </div>
+            <!-- Main Content-->
+            <div class="main-content">
+
+                
+<!-- Content 1-->               
+            <div class="content-switcher" id="Content1">
+                <h1>CouponDunia</h1>
+                <p>
+                    CouponDunia is a digital coupon marketplace connecting shoppers looking for a great offer with businesses
+                    looking to increase their sales. We’re a fast-growing start-up (we went from 30 to 100 employees in a year!)
+                    and are on a mission to help people save money on anything and everything they buy.
+                </p>
+            </div>
+                
+<!-- Content 2-->               
+            <div class="content-switcher" id="Content2">
+                <h1>Offers</h1>
+                <p>
+                    <a class="offer-links" href="http://www.coupondunia.in/snapdeal"> Snapdeal</a><br>
+                    <a class="offer-links" href="http://www.coupondunia.in/paytm"> PayTm</a><br>
+                    <a class="offer-links" href="http://www.coupondunia.in/ebay"> Ebay</a><br>
+                    <a class="offer-links" href="http://www.coupondunia.in/amazon"> Amazon</a><br>
+                    <a class="offer-links" href="http://www.coupondunia.in/flipkart"> Flipkart</a><br>
+                    <a class="offer-links" href="http://www.coupondunia.in/fashionandyou"> Fashionandyou</a><br>
+                    <a class="offer-links" href="http://www.coupondunia.in/jabong"> Jabong</a><br>
+                    
+                </p>
+            </div>
+                
+<!-- Content 3-->               
+            <div class="content-switcher" id="Content3">
+                <h1>Contact</h1>
+                <p>
+                    Corporate Address<br>
+                    CouponDunia Media Pvt Ltd.<br>
+                    429 Laxmi Mall,<br>
+                    Laxmi Industrial Estate,<br> 
+                    New Link Road,<br>
+                    Andheri W, Mumbai - 400053<br>
+                    OR<br>
+                    Contact us by emailing contact@coupondunia.in<br><br>
+                    <a class="offer-links" href="http://goo.gl/AloEIl">Get Directions/View on Google maps.</a>
+                </p>
+            </div>
+          </div>
+            
+            
+         
+            
+            
+          </div>
+    </body>
+</html>
